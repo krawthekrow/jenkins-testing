@@ -4,7 +4,7 @@ pipeline {
 	stages {
 		stage('Build') {
 			steps {
-				bash '''
+				sh '''
 					pwd
 					echo "blah" > hyades-jenkins-test-unique.txt
 				'''
