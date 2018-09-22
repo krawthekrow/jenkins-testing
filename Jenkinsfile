@@ -13,7 +13,7 @@ if os.environ('CHANGE_AUTHOR') not in [
 	raise Exception("user not authorized to run jenkins builds");
 					END
 					pwd
-					echo "blah" > hyades-jenkins-test-unique.txt
+					echo "blah 4" > hyades-jenkins-test-unique.txt
 				'''
 			}
 		}
