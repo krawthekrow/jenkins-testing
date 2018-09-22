@@ -8,7 +8,8 @@ pipeline {
 python - <<END
 import os
 if 'CHANGE_ID' in os.environ and os.environ['CHANGE_AUTHOR'] not in [
-	'krawthekrow'
+	'krawthekrow',
+	'hyades-jenkins-bot'
 ]:
 	raise Exception("user not authorized to run jenkins builds");
 END
