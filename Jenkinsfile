@@ -6,7 +6,7 @@ pipeline {
 			steps {
 				sh '''
 					pwd
-					echo "blah 3" > hyades-jenkins-test-unique.txt
+					echo "blah 4" > hyades-jenkins-test-unique.txt
 				'''
 			}
 		}
